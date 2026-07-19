@@ -1,0 +1,22 @@
+export const typography = {
+  fontFamily: {
+    sans: "Inter, Arial, sans-serif",
+  },
+
+  size: {
+    xs: "12px",
+    sm: "14px",
+    md: "16px",
+    lg: "20px",
+    xl: "24px",
+    "2xl": "32px",
+    "3xl": "40px",
+  },
+
+  weight: {
+    regular: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+  },
+} as const;
