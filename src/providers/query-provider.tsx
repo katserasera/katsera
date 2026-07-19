@@ -18,7 +18,6 @@ export function QueryProvider({
     () => new QueryClient()
   );
 
-
   return (
     <QueryClientProvider client={queryClient}>
       {children}
